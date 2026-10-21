@@ -19,3 +19,10 @@ Outputs:
 - Zonal wind diagnostics
 - Aerosol distributions
 - Synthetic observations
+
+Everyday input this into terminal:
+cd ~/Projects/neptune_isca
+conda activate isca
+git add .
+git commit -m "daily update"
+git push
