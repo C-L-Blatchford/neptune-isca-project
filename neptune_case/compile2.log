@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/blatc/Isca/exp/test_cases/held_suarez/held_suarez_test_case.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

@@ -1,0 +1,36 @@
+2026-10-21 15:39:13,550 - isca - WARNING - Environment variable GFDL_SOC not set, but this is only required if using SocratesCodebase. Setting to None
+2026-10-21 15:39:13,686 - isca - INFO - RRTM compilation disabled.
+2026-10-21 15:39:13,686 - isca - INFO - SOCRATES compilation disabled.
+2026-10-21 15:39:13,693 - isca - INFO - Writing path_names to '/home/blatc/isca_work/codebase/_home_blatc_Isca/build/held_suarez/path_names'
+2026-10-21 15:39:13,698 - isca - INFO - Running compiler
+2026-10-21 15:39:13,702 - isca - INFO - Loading basic ubuntu-conda environment
+2026-10-21 15:39:13,705 - isca - INFO - Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+2026-10-21 15:39:13,706 - isca - INFO - /home/blatc/isca_work/codebase/_home_blatc_Isca/build/held_suarez/path_names
+2026-10-21 15:39:13,951 - isca - INFO - ................................................................................................................................. Makefile is ready.
+2026-10-21 15:39:13,977 - isca - INFO - make: Nothing to be done for 'all'.
+2026-10-21 15:39:13,999 - isca - INFO - make: 'held_suarez.x' is up to date.
+2026-10-21 15:39:13,999 - isca - INFO - Compilation complete.
+2026-10-21 15:39:14,010 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,011 - isca - WARNING - Data for run 1 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,018 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,018 - isca - WARNING - Data for run 2 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,025 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,025 - isca - WARNING - Data for run 3 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,033 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,033 - isca - WARNING - Data for run 4 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,041 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,041 - isca - WARNING - Data for run 5 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,049 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,049 - isca - WARNING - Data for run 6 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,057 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,057 - isca - WARNING - Data for run 7 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,064 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,064 - isca - WARNING - Data for run 8 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,071 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,072 - isca - WARNING - Data for run 9 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,079 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,079 - isca - WARNING - Data for run 10 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,087 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,087 - isca - WARNING - Data for run 11 already exists but overwrite_data is False. Stopping.
+2026-10-21 15:39:14,095 - isca - INFO - Emptied run directory '/home/blatc/isca_work/experiment/neptune_demo/run'
+2026-10-21 15:39:14,095 - isca - WARNING - Data for run 12 already exists but overwrite_data is False. Stopping.

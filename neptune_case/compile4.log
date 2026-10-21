@@ -1,0 +1,368 @@
+2026-10-19 10:20:29,000 - isca - WARNING - Environment variable GFDL_SOC not set, but this is only required if using SocratesCodebase. Setting to None
+2026-10-19 10:20:29,135 - isca - INFO - RRTM compilation disabled.
+2026-10-19 10:20:29,135 - isca - INFO - SOCRATES compilation disabled.
+2026-10-19 10:20:29,142 - isca - INFO - Writing path_names to '/home/blatc/isca_work/codebase/_home_blatc_Isca/build/held_suarez/path_names'
+2026-10-19 10:20:29,144 - isca - INFO - Running compiler
+2026-10-19 10:20:29,149 - isca - INFO - Loading basic ubuntu-conda environment
+2026-10-19 10:20:29,153 - isca - INFO - Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+2026-10-19 10:20:29,154 - isca - INFO - Compiling postprocessing tools
+2026-10-19 10:20:29,157 - isca - INFO - Loading basic ubuntu-conda environment
+2026-10-19 10:20:29,159 - isca - INFO - -I/home/blatc/miniconda/envs/isca/include -L/usr/local/Cellar/netcdf/4.6.1_2/lib -lnetcdf
+2026-10-19 10:20:29,248 - isca - INFO - [01m[Kmppnccombine.c:[m[K In function ‘[01m[Kmain[m[K’:
+2026-10-19 10:20:29,248 - isca - WARNING - [01m[Kmppnccombine.c:162:4:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+2026-10-19 10:20:29,248 - isca - INFO - 162 |    [01;35m[Ksprintf[m[K(outfilename,argv[outputarg]); outlen=strlen(outfilename);
+2026-10-19 10:20:29,248 - isca - INFO - |    [01;35m[K^~~~~~~[m[K
+2026-10-19 10:20:29,365 - isca - WARNING - [01m[Kmppnccombine.c:245:39:[m[K [01;35m[Kwarning: [m[K‘[01m[K%04d[m[K’ directive writing between 4 and 11 bytes into a region of size between 0 and 2047 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-overflow-Wformat-overflow=]8;;[m[K]
+2026-10-19 10:20:29,365 - isca - INFO - 245 |                sprintf(infilename,"%s.[01;32m[K%[m[K[01;32m[K0[m[K[01;32m[K4[m[K[01;32m[Kd[m[K",outfilename,a);
+2026-10-19 10:20:29,365 - isca - INFO - |                                       [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+2026-10-19 10:20:29,365 - isca - INFO - [01m[Kmppnccombine.c:245:35:[m[K [01;36m[Knote: [m[Kdirective argument in the range [-2147483648, 2147483646]
+2026-10-19 10:20:29,365 - isca - INFO - 245 |                sprintf(infilename,[01;36m[K"%s.%04d"[m[K,outfilename,a);
+2026-10-19 10:20:29,365 - isca - INFO - |                                   [01;36m[K^~~~~~~~~[m[K
+2026-10-19 10:20:29,365 - isca - INFO - In file included from [01m[K/usr/include/stdio.h:974[m[K,
+2026-10-19 10:20:29,366 - isca - INFO - from [01m[Kmppnccombine.c:41[m[K:
+2026-10-19 10:20:29,366 - isca - INFO - In function ‘[01m[Ksprintf[m[K’,
+2026-10-19 10:20:29,366 - isca - INFO - inlined from ‘[01m[Kmain[m[K’ at [01m[Kmppnccombine.c:245:16[m[K:
+2026-10-19 10:20:29,366 - isca - INFO - [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 6 and 2060 bytes into a destination of size 2048
+2026-10-19 10:20:29,366 - isca - INFO - 30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+2026-10-19 10:20:29,366 - isca - INFO - |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - 31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+2026-10-19 10:20:29,366 - isca - INFO - |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - 32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+2026-10-19 10:20:29,366 - isca - INFO - |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - [01m[Kmppnccombine.c:[m[K In function ‘[01m[Kmain[m[K’:
+2026-10-19 10:20:29,366 - isca - WARNING - [01m[Kmppnccombine.c:214:38:[m[K [01;35m[Kwarning: [m[K‘[01m[K%04d[m[K’ directive writing between 4 and 11 bytes into a region of size between 0 and 2047 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-overflow-Wformat-overflow=]8;;[m[K]
+2026-10-19 10:20:29,366 - isca - INFO - 214 |               sprintf(infilename,"%s.[01;32m[K%[m[K[01;32m[K0[m[K[01;32m[K4[m[K[01;32m[Kd[m[K",outfilename,a);
+2026-10-19 10:20:29,366 - isca - INFO - |                                      [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - In function ‘[01m[Ksprintf[m[K’,
+2026-10-19 10:20:29,366 - isca - INFO - inlined from ‘[01m[Kmain[m[K’ at [01m[Kmppnccombine.c:214:15[m[K:
+2026-10-19 10:20:29,366 - isca - INFO - [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 6 and 2060 bytes into a destination of size 2048
+2026-10-19 10:20:29,366 - isca - INFO - 30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+2026-10-19 10:20:29,366 - isca - INFO - |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - 31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+2026-10-19 10:20:29,366 - isca - INFO - |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - 32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+2026-10-19 10:20:29,366 - isca - INFO - |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - [01m[Kmppnccombine.c:[m[K In function ‘[01m[Kmain[m[K’:
+2026-10-19 10:20:29,366 - isca - WARNING - [01m[Kmppnccombine.c:315:39:[m[K [01;35m[Kwarning: [m[K‘[01m[K%04d[m[K’ directive writing between 4 and 11 bytes into a region of size between 0 and 2047 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-overflow-Wformat-overflow=]8;;[m[K]
+2026-10-19 10:20:29,366 - isca - INFO - 315 |                sprintf(infilename,"%s.[01;32m[K%[m[K[01;32m[K0[m[K[01;32m[K4[m[K[01;32m[Kd[m[K",outfilename,a);
+2026-10-19 10:20:29,366 - isca - INFO - |                                       [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - In function ‘[01m[Ksprintf[m[K’,
+2026-10-19 10:20:29,366 - isca - INFO - inlined from ‘[01m[Kmain[m[K’ at [01m[Kmppnccombine.c:315:16[m[K:
+2026-10-19 10:20:29,366 - isca - INFO - [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 6 and 2060 bytes into a destination of size 2048
+2026-10-19 10:20:29,366 - isca - INFO - 30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+2026-10-19 10:20:29,366 - isca - INFO - |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - 31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+2026-10-19 10:20:29,366 - isca - INFO - |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,366 - isca - INFO - 32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+2026-10-19 10:20:29,366 - isca - INFO - |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:29,705 - isca - INFO - /home/blatc/isca_work/codebase/_home_blatc_Isca/build/held_suarez/path_names
+2026-10-19 10:20:29,890 - isca - INFO - ................................................................................................................................. Makefile is ready.
+2026-10-19 10:20:29,899 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_parameter.F90
+2026-10-19 10:20:29,903 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/platform/platform.F90
+2026-10-19 10:20:29,907 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/tridiagonal/tridiagonal.F90
+2026-10-19 10:20:29,909 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/sat_vapor_pres/sat_vapor_pres_k.F90
+2026-10-19 10:20:29,918 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/cloud_simple/lcl.F90
+2026-10-19 10:20:29,926 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/model/tracer_type.F90
+2026-10-19 10:20:29,935 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov_kernel.F90
+2026-10-19 10:20:29,935 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/create_xgrid.c
+2026-10-19 10:20:29,951 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_parameter.F90:115:42:[m[K
+2026-10-19 10:20:29,951 - isca - INFO - 115 |   integer(LONG_KIND), parameter :: DOMAIN_ID_BASE=Z'0000000100000000' ! Workaround for 64bit init problem
+2026-10-19 10:20:29,951 - isca - INFO - |                                          [01;35m[K1[m[K
+2026-10-19 10:20:29,951 - isca - WARNING - [01;35m[KWarning:[m[K BOZ literal constant at [01;35m[K(1)[m[K is neither a data-stmt-constant nor an actual argument to INT, REAL, DBLE, or CMPLX intrinsic function
+2026-10-19 10:20:29,952 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/threadloc.c
+2026-10-19 10:20:29,959 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/read_mosaic.c
+2026-10-19 10:20:29,960 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/memutils/memuse.c
+2026-10-19 10:20:29,983 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/nsclock.c
+2026-10-19 10:20:30,004 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/gradient_c2l.c
+2026-10-19 10:20:30,007 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/read_mosaic.c:[m[K In function ‘[01m[Kget_file_dir[m[K’:
+2026-10-19 10:20:30,008 - isca - WARNING - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/read_mosaic.c:58:10:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+2026-10-19 10:20:30,008 - isca - INFO - 58 |   strptr [01;35m[K=[m[K strrchr(file, '/');
+2026-10-19 10:20:30,008 - isca - INFO - |          [01;35m[K^[m[K
+2026-10-19 10:20:30,011 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/mosaic_util.c
+2026-10-19 10:20:30,019 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/read_mosaic.c:[m[K In function ‘[01m[Kread_mosaic_grid_data[m[K’:
+2026-10-19 10:20:30,019 - isca - WARNING - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/read_mosaic.c:807:25:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 254 bytes into a region of size between 0 and 254 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-overflow-Wformat-overflow=]8;;[m[K]
+2026-10-19 10:20:30,019 - isca - INFO - 807 |   sprintf(tilefile, "%s/[01;32m[K%[m[K[01;32m[Ks[m[K", dir, [01;34m[Kg[m[K[01;34m[Kr[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Kf[m[K[01;34m[Ki[m[K[01;34m[Kl[m[K[01;34m[Ke[m[K);
+2026-10-19 10:20:30,019 - isca - INFO - |                         [01;32m[K^[m[K[01;32m[K~[m[K        [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+2026-10-19 10:20:30,019 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/read_mosaic.c:807:3:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output between 2 and 510 bytes into a destination of size 255
+2026-10-19 10:20:30,020 - isca - INFO - 807 |   [01;36m[Ksprintf(tilefile, "%s/%s", dir, gridfile)[m[K;
+2026-10-19 10:20:30,020 - isca - INFO - |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+2026-10-19 10:20:30,075 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/random_numbers/MersenneTwister.F90
+2026-10-19 10:20:30,110 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/affinity.c
+2026-10-19 10:20:30,133 - isca - INFO - mpicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags` -D__IFC  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/interp.c
+2026-10-19 10:20:30,151 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_data.F90
+2026-10-19 10:20:30,247 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp.F90
+2026-10-19 10:20:30,263 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_comm.inc:326:0:[m[K
+2026-10-19 10:20:30,263 - isca - INFO - 326 | #define MPP_GATHER_1DV_ mpp_gather_real4_1dv
+2026-10-19 10:20:30,263 - isca - WARNING - [01;35m[KWarning:[m[K ‘[01m[KMPP_GATHER_1DV_[m[K’ redefined
+2026-10-19 10:20:30,263 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_comm.inc:319:0:[m[K
+2026-10-19 10:20:30,263 - isca - INFO - 319 | #define MPP_GATHER_1DV_ mpp_gather_int4_1dv
+2026-10-19 10:20:30,263 - isca - INFO - [01;36m[Knote:[m[K this is the location of the previous definition
+2026-10-19 10:20:30,263 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_comm.inc:333:0:[m[K
+2026-10-19 10:20:30,263 - isca - INFO - 333 | #define MPP_GATHER_1DV_ mpp_gather_real8_1dv
+2026-10-19 10:20:30,263 - isca - WARNING - [01;35m[KWarning:[m[K ‘[01m[KMPP_GATHER_1DV_[m[K’ redefined
+2026-10-19 10:20:30,263 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_comm.inc:326:0:[m[K
+2026-10-19 10:20:30,263 - isca - INFO - 326 | #define MPP_GATHER_1DV_ mpp_gather_real4_1dv
+2026-10-19 10:20:30,263 - isca - INFO - [01;36m[Knote:[m[K this is the location of the previous definition
+2026-10-19 10:20:30,446 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_sum_mpi.h:42:26-26:[m[K
+2026-10-19 10:20:30,447 - isca - INFO - 42 |       call MPI_ALLREDUCE( a, work, length, MPI_TYPE_, MPI_SUM, peset(n)%id, error )
+2026-10-19 10:20:30,447 - isca - INFO - |                          [01;35m[K1[m[K
+2026-10-19 10:20:30,447 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (INTEGER(8)/INTEGER(4)).
+2026-10-19 10:20:30,447 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_sum_mpi.h:42:29-29:[m[K
+2026-10-19 10:20:30,447 - isca - INFO - 42 |       call MPI_ALLREDUCE( a, work, length, MPI_TYPE_, MPI_SUM, peset(n)%id, error )
+2026-10-19 10:20:30,447 - isca - INFO - |                             [01;35m[K1[m[K
+2026-10-19 10:20:30,447 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (INTEGER(8)/INTEGER(4)).
+2026-10-19 10:20:30,447 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_reduce_mpi.h:35:26:[m[K
+2026-10-19 10:20:30,447 - isca - INFO - 35 |       call MPI_ALLREDUCE( a, work, 1, MPI_TYPE_, MPI_REDUCE_, peset(n)%id, error )
+2026-10-19 10:20:30,447 - isca - INFO - |                          [01;35m[K1[m[K
+2026-10-19 10:20:30,447 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:20:30,447 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_reduce_mpi.h:35:29:[m[K
+2026-10-19 10:20:30,447 - isca - INFO - 35 |       call MPI_ALLREDUCE( a, work, 1, MPI_TYPE_, MPI_REDUCE_, peset(n)%id, error )
+2026-10-19 10:20:30,447 - isca - INFO - |                             [01;35m[K1[m[K
+2026-10-19 10:20:30,447 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:20:30,447 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_reduce_mpi.h:35:26:[m[K
+2026-10-19 10:20:30,447 - isca - INFO - 35 |       call MPI_ALLREDUCE( a, work, 1, MPI_TYPE_, MPI_REDUCE_, peset(n)%id, error )
+2026-10-19 10:20:30,447 - isca - INFO - |                          [01;35m[K1[m[K
+2026-10-19 10:20:30,447 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:20:30,448 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_reduce_mpi.h:35:29:[m[K
+2026-10-19 10:20:30,448 - isca - INFO - 35 |       call MPI_ALLREDUCE( a, work, 1, MPI_TYPE_, MPI_REDUCE_, peset(n)%id, error )
+2026-10-19 10:20:30,448 - isca - INFO - |                             [01;35m[K1[m[K
+2026-10-19 10:20:30,448 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:20:30,448 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_transmit_mpi.h:197:43-43:[m[K
+2026-10-19 10:20:30,448 - isca - INFO - 197 |       if( mpp_npes().GT.1 )call MPI_BCAST( data, length, MPI_TYPE_, from_rank, peset(n)%id, error )
+2026-10-19 10:20:30,448 - isca - INFO - |                                           [01;35m[K1[m[K
+2026-10-19 10:20:30,448 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (LOGICAL(8)/LOGICAL(4)).
+2026-10-19 10:20:30,448 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_transmit_mpi.h:85:29-29:[m[K
+2026-10-19 10:20:30,449 - isca - INFO - 85 |              call MPI_ISEND( put_data, put_len, MPI_TYPE_, to_pe, comm_tag, mpp_comm_private, send_request, error)
+2026-10-19 10:20:30,449 - isca - INFO - |                             [01;35m[K1[m[K
+2026-10-19 10:20:30,449 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (LOGICAL(8)/LOGICAL(4)).
+2026-10-19 10:20:30,449 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_transmit_mpi.h:118:28-28:[m[K
+2026-10-19 10:20:30,449 - isca - INFO - 118 |              call MPI_RECV( get_data, get_len, MPI_TYPE_, from_pe, comm_tag, mpp_comm_private, stat, error )
+2026-10-19 10:20:30,449 - isca - INFO - |                            [01;35m[K1[m[K
+2026-10-19 10:20:30,449 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (LOGICAL(8)/LOGICAL(4)).
+2026-10-19 10:20:30,449 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_transmit_mpi.h:129:32-32:[m[K
+2026-10-19 10:20:30,449 - isca - INFO - 129 |                 call MPI_IRECV( get_data, get_len, MPI_TYPE_, from_pe, comm_tag, mpp_comm_private, &
+2026-10-19 10:20:30,449 - isca - INFO - |                                [01;35m[K1[m[K
+2026-10-19 10:20:30,449 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (LOGICAL(8)/LOGICAL(4)).
+2026-10-19 10:20:35,761 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_memutils.F90
+2026-10-19 10:20:35,762 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_pset.F90
+2026-10-19 10:20:35,763 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/horiz_interp/horiz_interp_type.F90
+2026-10-19 10:20:35,763 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/mosaic.F90
+2026-10-19 10:20:35,764 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_utilities.F90
+2026-10-19 10:20:35,764 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/test_mpp.F90
+2026-10-19 10:20:36,028 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_domains.F90
+2026-10-19 10:20:36,028 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/test_mpp_pset.F90
+2026-10-19 10:20:36,099 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_domains.F90:502:38:[m[K
+2026-10-19 10:20:36,099 - isca - INFO - 502 |   integer(LONG_KIND), parameter :: ADDR2_BASE=Z'0000000000010000'
+2026-10-19 10:20:36,099 - isca - INFO - |                                      [01;35m[K1[m[K
+2026-10-19 10:20:36,099 - isca - WARNING - [01;35m[KWarning:[m[K BOZ literal constant at [01;35m[K(1)[m[K is neither a data-stmt-constant nor an actual argument to INT, REAL, DBLE, or CMPLX intrinsic function
+2026-10-19 10:20:36,099 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_domains.F90:527:35:[m[K
+2026-10-19 10:20:36,099 - isca - INFO - 527 |   integer(LONG_KIND), parameter :: GT_BASE=Z'0000000000000100'  ! Workaround for 64bit int init problem
+2026-10-19 10:20:36,099 - isca - INFO - |                                   [01;35m[K1[m[K
+2026-10-19 10:20:36,099 - isca - WARNING - [01;35m[KWarning:[m[K BOZ literal constant at [01;35m[K(1)[m[K is neither a data-stmt-constant nor an actual argument to INT, REAL, DBLE, or CMPLX intrinsic function
+2026-10-19 10:20:36,099 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_domains.F90:530:35:[m[K
+2026-10-19 10:20:36,099 - isca - INFO - 530 |   integer(LONG_KIND), parameter :: KE_BASE=Z'0001000000000000'  ! Workaround for 64bit int init problem
+2026-10-19 10:20:36,099 - isca - INFO - |                                   [01;35m[K1[m[K
+2026-10-19 10:20:36,099 - isca - WARNING - [01;35m[KWarning:[m[K BOZ literal constant at [01;35m[K(1)[m[K is neither a data-stmt-constant nor an actual argument to INT, REAL, DBLE, or CMPLX intrinsic function
+2026-10-19 10:20:36,486 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_do_global_field.h:123:21:[m[K
+2026-10-19 10:20:36,486 - isca - INFO - 123 |             global = 0
+2026-10-19 10:20:36,486 - isca - INFO - |                     [01;35m[K1[m[K
+2026-10-19 10:20:36,486 - isca - WARNING - [01;35m[KWarning:[m[K Extension: Conversion from INTEGER(4) to LOGICAL(4) at [01;35m[K(1)[m[K
+2026-10-19 10:20:36,486 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_do_global_field.h:123:21:[m[K
+2026-10-19 10:20:36,486 - isca - INFO - 123 |             global = 0
+2026-10-19 10:20:36,486 - isca - INFO - |                     [01;35m[K1[m[K
+2026-10-19 10:20:36,486 - isca - WARNING - [01;35m[KWarning:[m[K Extension: Conversion from INTEGER(4) to LOGICAL(8) at [01;35m[K(1)[m[K
+2026-10-19 10:21:03,094 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/mpp_io.F90
+2026-10-19 10:21:03,094 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/test_mpp_domains.F90
+2026-10-19 10:21:03,177 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_write.inc:1119:79:[m[K
+2026-10-19 10:21:03,177 - isca - INFO - 1119 |               error = NF_DEF_VAR( mpp_file(unit)%ncid, axis%name, NF_FLOAT, 1, axis%did, axis%id )
+2026-10-19 10:21:03,177 - isca - INFO - |                                                                               [01;35m[K1[m[K
+2026-10-19 10:21:03,177 - isca - INFO - ......
+2026-10-19 10:21:03,177 - isca - INFO - 1226 |                   error = NF_DEF_VAR( mpp_file(unit)%ncid, field%name, NF_DOUBLE, size(field%axes(:)), axis_id, field%id )
+2026-10-19 10:21:03,177 - isca - INFO - |                                                                                                       [32m[K2[m[K
+2026-10-19 10:21:03,177 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:03,177 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_write.inc:1124:80:[m[K
+2026-10-19 10:21:03,177 - isca - INFO - 1124 |               error = NF_DEF_VAR( mpp_file(unit)%ncid, axis%name, NF_DOUBLE, 1, axis%did, axis%id )
+2026-10-19 10:21:03,177 - isca - INFO - |                                                                                [01;35m[K1[m[K
+2026-10-19 10:21:03,177 - isca - INFO - ......
+2026-10-19 10:21:03,177 - isca - INFO - 1226 |                   error = NF_DEF_VAR( mpp_file(unit)%ncid, field%name, NF_DOUBLE, size(field%axes(:)), axis_id, field%id )
+2026-10-19 10:21:03,178 - isca - INFO - |                                                                                                       [32m[K2[m[K
+2026-10-19 10:21:03,178 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:03,178 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_write.inc:334:83:[m[K
+2026-10-19 10:21:03,178 - isca - INFO - 334 |                  error = NF_DEF_VAR( mpp_file(unit)%ncid, axis%name, NF_DOUBLE, 1, axis%did, axis%id )
+2026-10-19 10:21:03,178 - isca - INFO - |                                                                                   [01;35m[K1[m[K
+2026-10-19 10:21:03,178 - isca - INFO - ......
+2026-10-19 10:21:03,178 - isca - INFO - 1226 |                   error = NF_DEF_VAR( mpp_file(unit)%ncid, field%name, NF_DOUBLE, size(field%axes(:)), axis_id, field%id )
+2026-10-19 10:21:03,178 - isca - INFO - |                                                                                                       [32m[K2[m[K
+2026-10-19 10:21:03,178 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:03,178 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_write.inc:336:82:[m[K
+2026-10-19 10:21:03,178 - isca - INFO - 336 |                  error = NF_DEF_VAR( mpp_file(unit)%ncid, axis%name, NF_FLOAT, 1, axis%did, axis%id )
+2026-10-19 10:21:03,178 - isca - INFO - |                                                                                  [01;35m[K1[m[K
+2026-10-19 10:21:03,178 - isca - INFO - ......
+2026-10-19 10:21:03,178 - isca - INFO - 1226 |                   error = NF_DEF_VAR( mpp_file(unit)%ncid, field%name, NF_DOUBLE, size(field%axes(:)), axis_id, field%id )
+2026-10-19 10:21:03,179 - isca - INFO - |                                                                                                       [32m[K2[m[K
+2026-10-19 10:21:03,179 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:03,179 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_write.inc:345:83:[m[K
+2026-10-19 10:21:03,179 - isca - INFO - 345 |                  error = NF_DEF_VAR( mpp_file(unit)%ncid, axis%name, NF_DOUBLE, 1, axis%did, axis%id )
+2026-10-19 10:21:03,179 - isca - INFO - |                                                                                   [01;35m[K1[m[K
+2026-10-19 10:21:03,179 - isca - INFO - ......
+2026-10-19 10:21:03,179 - isca - INFO - 1226 |                   error = NF_DEF_VAR( mpp_file(unit)%ncid, field%name, NF_DOUBLE, size(field%axes(:)), axis_id, field%id )
+2026-10-19 10:21:03,179 - isca - INFO - |                                                                                                       [32m[K2[m[K
+2026-10-19 10:21:03,179 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:03,179 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_write.inc:347:82:[m[K
+2026-10-19 10:21:03,179 - isca - INFO - 347 |                  error = NF_DEF_VAR( mpp_file(unit)%ncid, axis%name, NF_FLOAT, 1, axis%did, axis%id )
+2026-10-19 10:21:03,179 - isca - INFO - |                                                                                  [01;35m[K1[m[K
+2026-10-19 10:21:03,180 - isca - INFO - ......
+2026-10-19 10:21:03,180 - isca - INFO - 1226 |                   error = NF_DEF_VAR( mpp_file(unit)%ncid, field%name, NF_DOUBLE, size(field%axes(:)), axis_id, field%id )
+2026-10-19 10:21:03,180 - isca - INFO - |                                                                                                       [32m[K2[m[K
+2026-10-19 10:21:03,180 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:03,180 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/include/mpp_io_read.inc:101:91:[m[K
+2026-10-19 10:21:03,180 - isca - INFO - 95 |                   error = NF_GET_VARA_REAL  ( mpp_file(unit)%ncid, field%id, start, axsiz, data  )
+2026-10-19 10:21:03,180 - isca - INFO - |                                                                                           [32m[K2[m[K
+2026-10-19 10:21:03,180 - isca - INFO - ......
+2026-10-19 10:21:03,180 - isca - INFO - 101 |                   error = NF_GET_VARA_REAL  ( mpp_file(unit)%ncid, field%id, start, axsiz, rvals  )
+2026-10-19 10:21:03,180 - isca - INFO - |                                                                                           [01;35m[K1[m[K
+2026-10-19 10:21:03,180 - isca - WARNING - [01;35m[KWarning:[m[K Type mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (REAL(4)/REAL(8)).
+2026-10-19 10:21:06,080 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/fms	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/fms/fms_io.F90
+2026-10-19 10:21:06,081 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/memutils/memutils.F90
+2026-10-19 10:21:06,081 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mpp/test_mpp_io.F90
+2026-10-19 10:21:08,840 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/fms/fms.F90
+2026-10-19 10:21:08,841 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/fms/test_fms_io.F90
+2026-10-19 10:21:08,949 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/constants/constants.F90
+2026-10-19 10:21:08,949 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/field_manager	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/field_manager/field_manager.F90
+2026-10-19 10:21:08,950 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/tools/spec_mpp.F90
+2026-10-19 10:21:08,951 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_shared/vert_advection/vert_advection.F90
+2026-10-19 10:21:08,951 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/model/matrix_invert.F90
+2026-10-19 10:21:08,951 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/model/leapfrog.F90
+2026-10-19 10:21:08,952 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/axis_utils/axis_utils.F90
+2026-10-19 10:21:09,021 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/time_manager/time_manager.F90
+2026-10-19 10:21:09,022 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/init/vert_coordinate.F90
+2026-10-19 10:21:09,056 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/tools/gauss_and_legendre.F90
+2026-10-19 10:21:09,098 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/fft/fft99.F90
+2026-10-19 10:21:09,207 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/model/press_and_geopot.F90
+2026-10-19 10:21:09,241 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/diag_manager/diag_grid.F90
+2026-10-19 10:21:09,618 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov.F90
+2026-10-19 10:21:09,620 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/sat_vapor_pres/sat_vapor_pres.F90
+2026-10-19 10:21:09,667 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov.F90:889:24:[m[K
+2026-10-19 10:21:09,667 - isca - INFO - 889 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,667 - isca - INFO - |                        [01;35m[K1[m[K
+2026-10-19 10:21:09,667 - isca - INFO - ......
+2026-10-19 10:21:09,667 - isca - INFO - 910 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,667 - isca - INFO - |                        [32m[K2[m[K
+2026-10-19 10:21:09,667 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:09,668 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov.F90:889:43:[m[K
+2026-10-19 10:21:09,668 - isca - INFO - 889 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,668 - isca - INFO - |                                           [01;35m[K1[m[K
+2026-10-19 10:21:09,668 - isca - INFO - ......
+2026-10-19 10:21:09,668 - isca - INFO - 910 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,668 - isca - INFO - |                                           [32m[K2[m[K
+2026-10-19 10:21:09,668 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:09,668 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov.F90:889:48:[m[K
+2026-10-19 10:21:09,668 - isca - INFO - 889 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,668 - isca - INFO - |                                                [01;35m[K1[m[K
+2026-10-19 10:21:09,668 - isca - INFO - ......
+2026-10-19 10:21:09,668 - isca - INFO - 910 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,668 - isca - INFO - |                                                [32m[K2[m[K
+2026-10-19 10:21:09,668 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (rank-1 and scalar)
+2026-10-19 10:21:09,668 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov.F90:296:27:[m[K
+2026-10-19 10:21:09,668 - isca - INFO - 296 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,668 - isca - INFO - |                           [01;35m[K1[m[K
+2026-10-19 10:21:09,668 - isca - INFO - ......
+2026-10-19 10:21:09,668 - isca - INFO - 910 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,668 - isca - INFO - |                           [32m[K2[m[K
+2026-10-19 10:21:09,668 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (scalar and rank-2)
+2026-10-19 10:21:09,668 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/monin_obukhov/monin_obukhov.F90:296:35:[m[K
+2026-10-19 10:21:09,669 - isca - INFO - 296 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,669 - isca - INFO - |                                   [01;35m[K1[m[K
+2026-10-19 10:21:09,669 - isca - INFO - ......
+2026-10-19 10:21:09,669 - isca - INFO - 910 |           & ni, nj, nk, z, u_star, b_star, k_m, k_h, ier)
+2026-10-19 10:21:09,669 - isca - INFO - |                                   [32m[K2[m[K
+2026-10-19 10:21:09,669 - isca - WARNING - [01;35m[KWarning:[m[K Rank mismatch between actual argument at [01;35m[K(1)[m[K and actual argument at [32m[K(2)[m[K (scalar and rank-2)
+2026-10-19 10:21:09,763 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/horiz_interp/horiz_interp_conserve.F90
+2026-10-19 10:21:09,900 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/horiz_interp/horiz_interp_bilinear.F90
+2026-10-19 10:21:09,902 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/horiz_interp/horiz_interp_bicubic.F90
+2026-10-19 10:21:10,267 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/horiz_interp/horiz_interp_spherical.F90
+2026-10-19 10:21:10,492 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/time_interp/time_interp.F90
+2026-10-19 10:21:10,625 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_spectral/model/fv_advection.F90
+2026-10-19 10:21:10,668 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/topography/gaussian_topog.F90
+2026-10-19 10:21:10,781 - isca - INFO - mpifort `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/qflux/qflux.f90
+2026-10-19 10:21:10,836 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/frierson_monin_obukhov/frierson_monin_obukhov.F90
+2026-10-19 10:21:10,859 - isca - INFO - mpifort `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/atmos_param/topo_drag/topo_drag.f90
+2026-10-19 10:21:10,900 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/time_manager/get_cal_time.F90
+2026-10-19 10:21:10,953 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/gradient.F90
+2026-10-19 10:21:11,045 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/random_numbers/random_numbers.F90
+2026-10-19 10:21:11,118 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/field_manager/fm_util.F90
+2026-10-19 10:21:11,127 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/mosaic/grid.F90
+2026-10-19 10:21:11,147 - isca - INFO - mpifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8  -DRRTM_NO_COMPILE -DSOC_NO_COMPILE `nc-config --cflags`  `nc-config --cflags` `nc-config --flibs` -cpp -fcray-pointer -O2 -ffree-line-length-none -fno-range-check -fdefault-real-8 -fdefault-double-8 -fallow-invalid-boz -fallow-argument-mismatch  -c -I/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/include	/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/diag_manager/diag_data.F90
+2026-10-19 10:21:11,186 - isca - INFO - [01m[K/home/blatc/isca_work/codebase/_home_blatc_Isca/code/src/shared/diag_manager/diag_data.F90:63:7:[m[K
+2026-10-19 10:21:11,186 - isca - INFO - 63 |   USE netcdf, ONLY: NF_FILL_REAL => NF90_FILL_REAL
+2026-10-19 10:21:11,186 - isca - INFO - |       [01;31m[K1[m[K
+2026-10-19 10:21:11,187 - isca - INFO - [01;31m[KFatal Error:[m[K Cannot open module file ‘[01m[Knetcdf.mod[m[K’ for reading at [01;31m[K(1)[m[K: No such file or directory
+2026-10-19 10:21:11,187 - isca - INFO - compilation terminated.
+2026-10-19 10:21:11,188 - isca - INFO - make: *** [Makefile:45: diag_data.o] Error 1
+2026-10-19 10:21:11,188 - isca - INFO - make: *** Waiting for unfinished jobs....
+2026-10-19 10:21:12,593 - isca - INFO - ERROR: mkmf failed for held_suarez.x
+Exception in thread background thread for pid 3684:
+Traceback (most recent call last):
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 1709, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 2720, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 2411, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 820, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /home/blatc/isca_work/codebase/_home_blatc_Isca/build/held_suarez/compile.sh
+
+  STDOUT:
+Loading basic ubuntu-conda environment
+Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+Compiling postprocessing tools
+Loading basic ubuntu-conda environment
+-I/home/blatc/miniconda/envs/isca/include -L/usr/local/Cellar/netcdf/4.6.1_2/lib -lnetcdf
+[01m[Kmppnccombine.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmppnccombine.c:162:4:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+  162 |    [01;35m[Ksprintf[m[K(outfilename,argv[outputarg]); outlen=strlen(outfilename);
+      |    [01;35m[K^~~~~~~[m[K
+[01m[Kmppnccombine.c:245:39:[m[K [... (50507 more, please see e.stdout)
+
+  STDERR:
+
+Traceback (most recent call last):
+  File "/home/blatc/Isca/exp/test_cases/held_suarez/held_suarez_test_case.py", line 106, in <module>
+    cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
+  File "/home/blatc/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/home/blatc/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/home/blatc/Isca/src/extra/python/isca/codebase.py", line 280, in compile
+    for line in sh.bash(P(self.builddir, 'compile.sh'), _iter=True, _err_to_out=True):
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 876, in __next__
+    self.wait()
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 793, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/blatc/miniconda/envs/isca/lib/python3.10/site-packages/sh/__init__.py", line 820, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /home/blatc/isca_work/codebase/_home_blatc_Isca/build/held_suarez/compile.sh
+
+  STDOUT:
+Loading basic ubuntu-conda environment
+Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+Compiling postprocessing tools
+Loading basic ubuntu-conda environment
+-I/home/blatc/miniconda/envs/isca/include -L/usr/local/Cellar/netcdf/4.6.1_2/lib -lnetcdf
+[01m[Kmppnccombine.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmppnccombine.c:162:4:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+  162 |    [01;35m[Ksprintf[m[K(outfilename,argv[outputarg]); outlen=strlen(outfilename);
+      |    [01;35m[K^~~~~~~[m[K
+[01m[Kmppnccombine.c:245:39:[m[K [... (50507 more, please see e.stdout)
+
+  STDERR:
+
