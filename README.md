@@ -1,28 +1,31 @@
-#Neptune Atmospheric Dynamics using Isca
+# Ice Giant Atmospheric Dynamics and Aerosol Transport Using Isca
 
-Independent project inspired by ice gient atmospheric modelling
+## Scientific Aim
 
-Objectives:
-- Adapt Isca to Neptune conditions
-- Explore atmospheric circulation
-- Create aerosol tracer
-- Generate synthetic observations
+Investigate how atmospheric circulation controls aerosol transport in a Neptune-like atmosphere.
 
-Tools:
-- Isca
-- Python
-- Xarray
-- Matplotlib
+## Methods
 
-Outputs:
-- Temperature maps
-- Zonal wind diagnostics
-- Aerosol distributions
+- Isca GCM
+- Neptune planetary parameters
+- Sensitivity experiments
+- Simplified aerosol tracer
 - Synthetic observations
 
-Everyday input this into terminal:
-cd ~/Projects/neptune_isca
-conda activate isca
-git add .
-git commit -m "daily update"
-git push
+## Experiments
+
+1. Baseline Neptune
+2. Fast Rotation
+3. Weak Mixing
+4. Strong Mixing
+
+## Diagnostics
+
+- Temperature
+- Zonal winds
+- Aerosol transport
+- Synthetic telescope images
+
+## Relevance
+
+This project mirrors aspects of current research into aerosol-circulation coupling in Ice Giant atmospheres.
